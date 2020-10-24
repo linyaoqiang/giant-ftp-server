@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.giant.ftp.server.controller.OtherSettingsController">
+   <children>
+      <Label alignment="CENTER" layoutX="44.0" layoutY="31.0" prefHeight="38.0" prefWidth="103.0" text="最大登录数" />
+      <TextField fx:id="maxLoginsField" layoutX="159.0" layoutY="35.0" prefHeight="30.0" prefWidth="78.0" text="0" />
+      <TextField fx:id="maxThreadsField" layoutX="419.0" layoutY="35.0" prefHeight="30.0" prefWidth="78.0" text="0" />
+      <Label alignment="CENTER" layoutX="304.0" layoutY="31.0" prefHeight="38.0" prefWidth="103.0" text="最大线程数" />
+      <Label alignment="CENTER" layoutX="314.0" layoutY="113.0" prefHeight="38.0" prefWidth="139.0" text="登录失败时间(微秒)" />
+      <TextField fx:id="loginFailureDelayField" layoutX="491.0" layoutY="117.0" prefHeight="30.0" prefWidth="78.0" text="0" />
+      <TextField fx:id="maxLoginFailuresField" layoutX="194.0" layoutY="117.0" prefHeight="30.0" prefWidth="78.0" text="0" />
+      <Label alignment="CENTER" layoutX="44.0" layoutY="113.0" prefHeight="38.0" prefWidth="129.0" text="最大失败登录数" />
+      <CheckBox fx:id="anonymousLoginableCheckBox" layoutX="50.0" layoutY="240.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="152.0" text="匿名登录" />
+      <AnchorPane fx:id="anonymousLoginPane" layoutX="73.0" layoutY="295.0" prefHeight="167.0" prefWidth="539.0">
+         <children>
+            <TextField fx:id="maxAnonymousLoginsField" layoutX="178.0" layoutY="19.0" prefHeight="30.0" prefWidth="78.0" text="0" />
+            <Label alignment="CENTER" layoutX="17.0" layoutY="15.0" prefHeight="38.0" prefWidth="139.0" text="最大匿名登录数" />
+            <CheckBox fx:id="anonymousLoginWriteableCheckBox" layoutX="21.0" layoutY="117.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="169.0" text="匿名登录写入权限" />
+            <TextField fx:id="anonymousHomeDirectoryField" layoutX="178.0" layoutY="69.0" prefHeight="30.0" prefWidth="349.0" />
+            <Button fx:id="anonymousHomeDirectoryBtn" layoutX="21.0" layoutY="69.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="139.0" text="匿名用户主目录" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

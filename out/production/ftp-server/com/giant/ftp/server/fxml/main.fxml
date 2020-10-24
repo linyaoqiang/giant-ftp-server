@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.giant.ftp.server.controller.MainController">
+    <children>
+        <TabPane fx:id="tabPane" layoutX="25.0" layoutY="42.0" prefHeight="600.0" prefWidth="850.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab fx:id="baseTab" text="基本设置">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                </Tab>
+                <Tab fx:id="userTab" text="用户设置">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                </Tab>
+                <Tab fx:id="blackTab" text="黑名单设置">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                </Tab>
+            <Tab fx:id="otherTab" text="其他设置">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            </tabs>
+        </TabPane>
+        <Label alignment="CENTER" layoutX="294.0" layoutY="14.0" prefHeight="28.0" prefWidth="262.0" style="-fx-text-fill: #66aacc;" text="FTP Server v1.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

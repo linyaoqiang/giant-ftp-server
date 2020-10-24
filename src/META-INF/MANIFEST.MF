@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: com.giant.ftp.server.Main
+Class-Path: lib/ftplet-api-1.1.1.jar lib/ftpserver-core-1.1.1.jar lib/jc
+ l-over-slf4j-1.7.21.jar lib/log4j-1.2.17.jar lib/mina-core-2.0.16.jar l
+ ib/slf4j-api-1.7.21.jar lib/slf4j-log4j12-1.7.21.jar
+

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="ftplet-api-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ftplet-api-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ftpserver-core-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcl-over-slf4j-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mina-core-2.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-log4j12-1.7.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

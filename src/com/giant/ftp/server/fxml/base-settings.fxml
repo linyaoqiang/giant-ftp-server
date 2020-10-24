@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.giant.ftp.server.controller.BaseSettingsController">
+    <children>
+        <AnchorPane fx:id="basePane" layoutX="8.0" prefHeight="489.0" prefWidth="729.0">
+            <children>
+                <Label alignment="CENTER" layoutX="95.0" layoutY="348.0" prefHeight="33.0" prefWidth="58.0" text="端口" />
+                <TextField fx:id="portField" layoutX="162.0" layoutY="349.0" prefHeight="30.0" prefWidth="150.0" text="21" />
+                <Label alignment="CENTER" layoutX="80.0" layoutY="395.0" prefHeight="33.0" prefWidth="87.0" style="-fx-text-fill: #ace67a;" text="被动模式" />
+                <TextField fx:id="passiveAreaField" layoutX="176.0" layoutY="443.0" prefHeight="30.0" prefWidth="150.0" text="0" />
+                <Label alignment="CENTER" layoutX="80.0" layoutY="442.0" prefHeight="33.0" prefWidth="87.0" text="端口范围" />
+                <Label alignment="CENTER" layoutX="352.0" layoutY="442.0" prefHeight="33.0" prefWidth="87.0" text="起始端口" />
+                <TextField fx:id="passiveStartField" layoutX="453.0" layoutY="444.0" prefHeight="30.0" prefWidth="150.0" text="0" />
+                <ImageView fx:id="logoImageView" fitHeight="310.0" fitWidth="500.0" layoutX="115.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </AnchorPane>
+        <Button fx:id="btn" layoutX="319.0" layoutY="500.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="开启" />
+    </children>
+</AnchorPane>
